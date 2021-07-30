@@ -123,5 +123,5 @@
 }
 .bike-button:hover{
     background-color:#ec512a;
-    transform: rotateY(360deg) scale(1.2);
+    transform: rotateY(360deg);
 }
