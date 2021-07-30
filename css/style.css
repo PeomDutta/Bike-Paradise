@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*----------------------------
+         header style 
+-----------------------------*/
+
+.header{
+    background-color: #264653;
+    width: 100%;
+    color: white;
+}
+.header-p-first{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+}
+.bike-paradise{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;   
+}
+.header-p-second{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px; 
+}
+.modal-text-black{
+    color: black;
+}
+.modal-button{
+    background-color:#E76F51;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+}
+.modal-close{
+    background-color:#E76F51;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+}
+
+
+/*---------------------------
+     featured bike style 
+---------------------------*/
+
+.featured-bike{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.feature-color{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+}
+.bike-grayscale{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+
+/*--------------------------
+     happy clients style 
+---------------------------*/
+.client-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.client-text-color{
+    color: #E76F51;
+}
+.client-color{
+    color: #23A6F0;
+}
+
+/*---------------------------------------
+     frequently asked question style 
+----------------------------------------*/
+
+.frequent-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.frequent-text-color{
+    color: #E76F51;
+}
+.accordian-header-text{
+    font-weight: 500;
+    font-size: 20px;
+}
+.accordion-body-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E848C;
+}
+
+
+/*------------------
+     Contact Us
+-------------------*/
+.contact{
+    background-color: #264653;
+    color: white;
+  
+    text-align: center;
+}
+.bike-button{
+    background-color:#E76F51;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 8px;
+    border: none;
+    transition: transform 1.5s ease-in-out;
+}
+.bike-button:hover{
+    background-color:#ec512a;
+    transform: rotateY(360deg) scale(1.2);
+}

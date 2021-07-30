@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Paradise</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/95e06d45ef.js" crossorigin="anonymous"></script>
+
+    <!-- styled css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- header section -->
+        <section class="header mb-5">
+            <div class="container py-5">
+                <div class="row gx-3 d-flex align-items-center">
+                    <!-- header details -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="p-3">
+                            <div>
+                                <p class="header-p-first">Welcome to our Sports Bike Francise for latest all bikes and
+                                    information.</p>
+                                <h1 class="bike-paradise">Bike Paradise</h1>
+                                <p class="header-p-second mt-3">For latest bikes and their
+                                    information and price, do
+                                    visit our webpage. Save upto 75% on bike insurance. No instant supreme-policy
+                                    issuance.
+                                    No
+                                    inspection. More thank 1000 happy customers.
+                                </p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="modal-button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Purchase Now
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title modal-text-black" id="exampleModalLabel">Bike
+                                                    Cost</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body modal-text-black">
+                                                Bike Price: 1,25,000 taka <br>
+                                                Service Charge/Tax: 18,000 taka <br>
+                                                Delivery Charge: 7,000 taka <br>
+                                                Total Price: 1,50,000 taka
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="modal-close"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="modal-button">Confirm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- header bike image -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="p-3">
+                            <img src="images/header-bike.png" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <!-- Featured Bikes and Gray Scale -->
+        <section class="container mb-5 py-5">
+            <h1 class="text-center featured-bike">Featured Bikes 2021</h1>
+            <p class="text-center feature-color">Best Bike Collection</p>
+
+            <div class="row gx-4 gy-5 py-5 my-3">
+                <div class="col-md-12 col-lg-4">
+                    <div class="p-3 bike-grayscale">
+                        <img src="images/feature-bike.jpg" style="width: 100%;" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="p-3">
+                        <img src="images/feature-bike.jpg" style="width: 100%;" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="p-3 bike-grayscale">
+                        <img src="images/feature-bike.jpg" style="width: 100%;" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- happy clients -->
+        <section class="container mb-5">
+            <h1 class="text-center client-text">Happy <span class="client-text-color">Clients says</span></h1>
+            <div class="row row-cols-1 row-cols-lg-3 gx-4 gy-5 py-5">
+                <div class="col">
+                    <div class="card h-100 p-5">
+                        <img src="images/user-1.png" style="width: 50%;" class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Hello, this is Joey Tribbiani. I am a junior web developer.
+                                Studied Computer Science at Princeton University.</p>
+                            <p class="feature-color text-center"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star-half-alt"></i></p>
+                            <p class="client-color text-center">Joey Tribbiani</p>
+                            <p class="text-center">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-5">
+                        <img src="images/user-2.png" style="width: 50%;" class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Hi, My name is Peom Dutta. I am a software
+                                developer. Studied Computer Science and Engineering at AUST.</p>
+                            <p class="feature-color text-center"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></p>
+                            <p class="client-color text-center">Peom Dutta</p>
+                            <p class="text-center">Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-5">
+                        <img src="images/user3.png" style="width: 50%;" class="card-img-top mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Hello, Everyone. This is Phoebe Buffay. I am an accountant
+                                specialist at United Bank of America.
+                            </p>
+                            <p class="feature-color text-center"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star-half-alt"></i></p>
+                            <p class="client-color text-center">Phoebe Buffay</p>
+                            <p class="text-center">Accountant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- frequently asked question -->
+        <section class="container">
+            <h1 class="text-center frequent-text">Frequently Asked <span class="frequent-text-color">Questions</span>
+            </h1>
+
+            <div class="row gx-4 gy-5 py-5 d-flex align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-3">
+                        <img src="images/faq.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-3">
+                        <div class="row gy-3 accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item border border-1 rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button accordian-header-text" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        What are the most important things Yor should
+                                        know before purchasing a bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body  accordion-body-text">
+                                        Do visit our website. Our main priority is safety. Before purchasing make sure
+                                        you know how to ride and control vehicles. This is absolutlely necessary.
+                                        Besides
+                                        make sure you are capable of buying the bike.
+                                        Safety First! Always obey the rules of the road. Obey all traffic
+                                        signals, signs, and laws. Get in the mindset of “driving” your bike that not
+                                        just
+                                        “riding” your bike. This will help you be a more focused and legally
+                                        compliant bike rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border border-1 rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed accordian-header-text" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        I’m thinking about buying a bike. What kind should I buy?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body accordion-body-text">
+                                        If you plan to ride mostly on streets/roads, a mountain bike would NOT be your
+                                        best choice. That’s a common mistake many new cyclists make. A mountain bike
+                                        takes more effort to maintain the same speed as a road bike due to the increased
+                                        weight and rolling resistance (due to the wider tires with aggressive treads).
+                                        This is especially a factor when going uphill. Mountain bikes are excellent for
+                                        what they are designed to do–go off-pavement–but not especially well suited to
+                                        road riding.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border border-1 rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed accordian-header-text" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        My bike has been in storage is it safe to ride.What kind of special clothing do
+                                        I need?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body accordion-body-text">
+                                        The only ABSOLUTELY NECESSARY item you’ll need is a good helmet. I’m sure you
+                                        don’t need to be told how important this is. Please don’t get on your bike
+                                        without your helmet. The world may need organ donors, but your family needs YOU!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border border-1 rounded-3">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed accordian-header-text" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                        What do I need to carry on my bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body accordion-body-text">
+                                        Every biker should be prepared for minor road-side repairs, especially repair
+                                        of flat tires. Even though you might be riding with others, you should carry
+                                        your own spare inner tube and pump or inflation cylinders (small cylinders with
+                                        compressed CO2 for airing up tires). Changing a tube is not a difficult task.
+                                        Ask a friend or your bike shop mechanic to show you how, then practice
+                                        at home so you won’t be doing it for the first time in the middle of a ride.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Extra Features for Bonus -->
+
+        <!-- Product and Pricing -->
+        <section class="container my-5 mb-5">
+            <h1 class="text-center bike-paradise my-5"><span class="frequent-text-color">Products </span>and
+                <span class="frequent-text-color">Prices</span>
+            </h1>
+            <div class="row row-cols-1 row-cols-lg-3 gx-3 gy-5">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded-3 p-3">
+                        <img src="images/ref1.jpg" class="card-img-top mx-auto" alt=" ...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Royal Enfield 100</h5>
+                            <p class="card-text">Royal Enfield is a very popular accross the world. It is one of the
+                                most costly bike compare to others. Many actors owns this now. </p>
+                            <h5 class="fw-bold frequent-text-color">$12500</h5>
+                        </div>
+                        <div>
+                            <button type="button" class="bike-button mt-2">Add too cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded-3 p-3">
+                        <img src="images/bmw.jpg" class="card-img-top mx-auto rounded-3" alt=" ...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">BMW-F-100</h5>
+                            <p class="card-text">BMW is the large organization of bikes rulling over years in the world.
+                                From hollywood to bollywood ,action scenes are made with this.</p>
+                            <h5 class="fw-bold frequent-text-color">$19500</h5>
+                        </div>
+                        <div>
+                            <button type="button" class="bike-button mt-2">Add too cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg rounded-3 p-3">
+                        <img src="images/ymh.jpg" class="card-img-top mx-auto" alt=" ...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Yamaha-Fast</h5>
+                            <p class="card-text">This is yamaha madr by japan. One of the fastest running bike in the
+                                world. Can make upto 180 km/h by this bike. Very Popular and costly.</p>
+                            <h5 class="fw-bold frequent-text-color">$15570</h5>
+                        </div>
+                        <div>
+                            <button type="button" class="bike-button mt-2">Add too cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us -->
+        <h1 class="text-center bike-paradise my-5 pt-5"> <span class="frequent-text-color">Contact </span>With Us</h1>
+        <section class="contact container my-5 d-flex justify-content-center align-items-center rounded-3">
+            <div class="py-5 my-2">
+                <h2>LET'S STAY IN <span class="frequent-text-color">TOUCH</span> </h2>
+                <p class="mb-4">Get updates on Bikes, helments and more. </p>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Tour Name: ">
+                <br>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address: ">
+                <br>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number: ">
+                <br>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Home Address: ">
+                <br>
+                <input type="text" class="form-control" style="height: 100px;" id="exampleFormControlInput1"
+                    placeholder="Message:">
+                <br>
+                <button type="button" class="bike-button mt-2">Submit</button>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p class="text-center mx-2">© 2021 Bike-Paradise. All rights reserved - itspeomd.</p>
+    </footer>
+
+    <!-- script sheet -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
